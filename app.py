@@ -9,10 +9,10 @@ This does sum of 2 nos
 
 st.header('User Input Parameters')
 
-#first_num = st.number_input("first no")
-#second_num = st.number_input("second no")
+first_num = st.number_input("first no")
+second_num = st.number_input("second no")
 
-#total=first_num+second_num
+total=first_num+second_num
 
-#st.subheader('Sum')
-#st.write(total)
+st.subheader('Sum')
+st.write(total)
