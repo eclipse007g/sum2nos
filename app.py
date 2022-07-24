@@ -9,13 +9,10 @@ This does sum of 2 nos
 
 st.header('User Input Parameters')
 
-def user_input_features():
-    first_num = st.number_input("first no")
-    second_num = st.number_input("second no")
+first_num = st.number_input("first no")
+second_num = st.number_input("second no")
 
-    return first_num+second_num
-
-total= user_input_features()
+total=first_num+second_num
 
 st.subheader('Sum')
 st.write(total)
